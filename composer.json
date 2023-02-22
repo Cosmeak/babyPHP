@@ -1,0 +1,26 @@
+{
+    "name": "cosmeak/baby-php",
+    "description": "Learn how to make a PHP app from scratch",
+    "type": "project",
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "./core/",
+            "App\\": "./app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cosmeak",
+            "email": "guillaumefine09@gmail.com"
+        }
+    ],
+    "scripts": {
+        "server" : [
+            "php -S localhost:8080 server.php --timeout=0"
+        ]
+    },
+    "minimum-stability": "alpha"
+}
