@@ -31,6 +31,7 @@ class Application
 	 */
 	public function run() : void
 	{	
+		// Launch all routes created
 		require __DIR__ . '/../routes/web.php';
 	}
 }
