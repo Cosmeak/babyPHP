@@ -9,7 +9,10 @@
         "psr-4": {
             "Core\\": "./core/",
             "App\\": "./app/"
-        }
+        },
+        "files": [
+            "./core/Helpers/dd.php"
+        ]
     },
     "authors": [
         {
@@ -19,7 +22,7 @@
     ],
     "scripts": {
         "server" : [
-            "php -S localhost:8080 server.php --timeout=0"
+            "php -S localhost:8080 server.php"
         ]
     },
     "minimum-stability": "alpha"
